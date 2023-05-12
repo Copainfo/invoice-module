@@ -1,0 +1,29 @@
+{
+    "name": "codingpair-qtn/invoice-module",
+    "description": "Module qui permet de généré des factures",
+    "autoload": {
+        "psr-4": {
+            "CodingpairQtn\\InvoiceModule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quentin Schneider",
+            "email": "quentin.08210@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spipu/html2pdf": "^5.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp": true
+        }
+    },
+    "require-dev": {
+        "phpro/grumphp": "^1.16",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.1"
+    }
+}

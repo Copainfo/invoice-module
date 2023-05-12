@@ -1,0 +1,12 @@
+parameters:
+    # editorUrl: 'vscode://file/%%file%%:%%line%%'
+    editorUrl: 'phpstorm://open?file=%%file%%&line=%%line%%'
+    level: 6
+    paths:
+        - src
+        - test
+    # bootstrapFiles:
+    #    - bootstrap/define.php
+    ignoreErrors:
+    excludePaths:
+        - */coverage/*

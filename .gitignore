@@ -1,0 +1,15 @@
+
+# IDE
+/.idea/
+
+# PACKAGES
+/vendor/
+
+# PROJET
+/.phpunit.result.cache
+/.phpunit.cache
+/*.zip
+/test/test.log
+/test/coverage
+php_errors.log
+*.env
