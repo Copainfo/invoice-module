@@ -2,3 +2,5 @@ grumphp:
     tasks:
         phpstan:
             level: 0
+        phpcs:
+            level: 0
