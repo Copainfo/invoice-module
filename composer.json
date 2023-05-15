@@ -17,6 +17,24 @@
         "spipu/html2pdf": "^5.2",
         "squizlabs/php_codesniffer": "^3.7"
     },
+    "scripts": {
+        "check": [
+            "phpcs",
+            "phpstan"
+        ],
+        "fix": [
+            "phpcbf"
+        ],
+        "test": [
+            "Composer\\Config::disableProcessTimeout",
+            "phpunit"
+        ],
+        "test:coverage": [
+            "Composer\\Config::disableProcessTimeout",
+            "phpunit --coverage-html ./test/coverage",
+            "php -S 0.0.0.0:9999 -t ./test/coverage"
+        ]
+    },
     "config": {
         "allow-plugins": {
             "phpro/grumphp": true
