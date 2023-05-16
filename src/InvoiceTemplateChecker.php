@@ -119,7 +119,7 @@ class InvoiceTemplateChecker
      */
     private function makeMissingErrorMessage(array $missingParam):string
     {
-        $message= "Le template: ".$this->template . " , ne contient pas tout les paramètres obligatoires les paramètres suivant ne sont pas present : ";
+        $message= "Le template: ".$this->template . " , ne contient pas tout les paramètres obligatoires les paramètres suivant ne sont pas present :";
         foreach ($missingParam as $param => $value) {
             $message.= " $param ,";
         }

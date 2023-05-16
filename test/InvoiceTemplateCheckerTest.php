@@ -41,6 +41,16 @@ class InvoiceTemplateCheckerTest extends TestCase
         self::assertTrue($return);
     }
 
+    public function testTemplateFilesPhpHtmlExistMissingParam():void
+    {
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage("Le template: TestTemplateMissingParam , ne contient pas tout les paramètres obligatoires les paramètres suivant ne sont pas present : DATE ,");
+        $templateChecker = new InvoiceTemplateChecker();
+        chdir(__DIR__. "/testTemplate");
+        $return = $templateChecker->checkTemplateFile("TestTemplateMissingParam");
+        self::assertTrue($return);
+    }
+
     public function testTemplateFilesPhpGetFileType():void
     {
         $templateChecker = new InvoiceTemplateChecker();
