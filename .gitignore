@@ -13,3 +13,4 @@
 /test/coverage
 php_errors.log
 *.env
+test/testTemplate/test.pdf
