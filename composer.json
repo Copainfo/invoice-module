@@ -43,6 +43,7 @@
     "require-dev": {
         "phpro/grumphp": "^1.16",
         "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^10.1"
+        "phpunit/phpunit": "^10.1",
+        "fakerphp/faker": "^1.22"
     }
 }
