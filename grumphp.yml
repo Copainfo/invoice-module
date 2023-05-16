@@ -1,6 +1,25 @@
 grumphp:
     tasks:
         phpstan:
-            level: 0
+            autoload_file: ~
+            configuration: ~
+            level: null
+            force_patterns: [ ]
+            ignore_patterns: [ ]
+            triggered_by: [ 'php' ]
+            memory_limit: "-1"
+            use_grumphp_paths: true
         phpcs:
-            level: 0
+            severity: ~
+            error_severity: ~
+            warning_severity: ~
+            tab_width: ~
+            report: full
+            report_width: ~
+            whitelist_patterns: [ ]
+            encoding: ~
+            ignore_patterns: [ ]
+            sniffs: [ ]
+            triggered_by: [ php ]
+            exclude: [ ]
+            show_sniffs_error_path: true
