@@ -4,14 +4,14 @@ InvoiceModule est un générateur de facture au format PDF.
 
 Ce générateur est en php **8.1**.
 
-Il s'appuie sur la librairie [Html2Pdf](https://github.com/spipu/html2pdf) qui permet de faire la conversion d'un text en HTML 4.01 en Pdf.
+Il s'appuie sur la librairie [Html2Pdf](https://github.com/spipu/html2pdf) qui permet de faire la conversion d'un code HTML 4.01 en PDF.
 
 
 ## Configuration requise
 
 InvoiceModule fonctionne avec PHP >8.1 et Composer.
 
-Vous aurez également besoin d'au moins les extensions php suivantes :
+Vous aurez également besoin d'avoir au minimum les extensions php suivantes :
 
 * gd
 * mbstring

@@ -3,7 +3,7 @@
 
 ## Créer un Template
 
-Pour que les facture puisse être générée, il faut mettre en place un template.
+Pour que les factures puissent être générées, il faut mettre en place un template.
 
 Ce template permet de personnaliser la sortie de la facture. 
 
@@ -13,9 +13,9 @@ Le Template doit être dans le repertoire ``./template/invoice`` à la racine de
 
 ## Variable 
 
-Pour remplir les informations nécessaires de la facture, les template doivent avoir un certain nombre de variables.
+Pour remplir les informations nécessaires de la facture, les templates doivent avoir un certain nombre de variables.
 
-Les variables dans le template sont définis de la manière suivante : [[NOMDUPARAM]].
+Les variables dans le template sont définies de la manière suivante : [[NOMDUPARAM]].
 
 ### Variable Obligatoire
 
@@ -47,12 +47,12 @@ Voici la liste des paramètres :
 * TOTALTVA : Total de la TVA de la facture
 * TOTALTTC : Total TTC de la facture
 
-Pour plus d'information : [Réglementation facture française](https://www.economie.gouv.fr/entreprises/factures-mentions-obligatoires)
+Pour plus d'informations : [Réglementation facture française](https://www.economie.gouv.fr/entreprises/factures-mentions-obligatoires)
 
-Un template sans ses informations ne sera pas pris en charge.
+Un template sans ces informations ne sera pas pris en charge.
 
 ### Variable Supplémentaire
 
 Dans le template, il peut aussi y avoir des paramètres en plus pour les styles ou des informations nécessaires à votre facture.
 
-Attention si l'une des variables n'as pas de valeur le template ne sera pas pris en charge.
+Attention si l'une des variables n'a pas de valeur le template ne sera pas pris en charge.
