@@ -1,6 +1,7 @@
 {
     "name": "copainfo/invoice-module",
     "description": "Module qui permet de généré des factures",
+    "license": "OSL-3.0",
     "autoload": {
         "psr-4": {
             "CodingpairQtn\\InvoiceModule\\": "src/"
