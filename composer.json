@@ -1,5 +1,5 @@
 {
-    "name": "codingpair-qtn/invoice-module",
+    "name": "copainfo/invoice-module",
     "description": "Module qui permet de généré des factures",
     "autoload": {
         "psr-4": {
