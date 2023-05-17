@@ -6,6 +6,11 @@
             "CodingpairQtn\\InvoiceModule\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "CodingpairQtn\\InvoiceModule\\Tests\\": "test/"
+        }
+    },
     "authors": [
         {
             "name": "Quentin Schneider",

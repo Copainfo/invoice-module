@@ -14,3 +14,4 @@
 php_errors.log
 *.env
 test/testTemplate/test.pdf
+test/testTemplate/testDetails.pdf

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="CityZen coding standard">
+<ruleset name="coding standard">
     <description>CodingPair coding standard</description>
 
     <!-- display progress -->
