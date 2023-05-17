@@ -217,10 +217,10 @@ class InvoiceBuilder
     private function makeFinalParamData(array $data): array
     {
         $allData = array_merge($this->issuerInfo, $this->customerInfo, $this->invoiceInfo, $data);
+        $allData["INVOICEDETAILTABLE"]= $this->detailsTableMaker->makeProductTable();
         $allData["TOTALHT"]= $this->detailsTableMaker->getTotalHT();
         $allData["TOTALTVA"]= $this->detailsTableMaker->getTotalTVA();
         $allData["TOTALTTC"]= $this->detailsTableMaker->getTotalTTC();
-        $allData["INVOICEDETAILTABLE"]= $this->detailsTableMaker->makeProductTable();
         return $allData;
     }
 }
